@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FamilyTube — private family playback app</title>
+  <meta name="description" content="FamilyTube is a private, self-hosted YouTube playback app used by one family. It is not a public service and has no public registration.">
+  <link rel="icon" href="icon.png">
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(1200px 600px at 70% -10%, #2a1b52 0%, #0d113e 55%);
+      color: #eef0ff; min-height: 100vh; display: flex; flex-direction: column;
+    }
+    main { flex: 1; max-width: 760px; margin: 0 auto; padding: 72px 24px 40px; width: 100%; }
+    .logo { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
+    .logo img { width: 64px; height: 64px; border-radius: 14px; }
+    .logo h1 { font-size: 1.6rem; font-weight: 700; }
+    h2 { font-size: 1.15rem; margin: 28px 0 10px; color: #cfd4ff; }
+    p { line-height: 1.6; color: #c7ccf8; }
+    code { background: rgba(255,255,255,.08); padding: 2px 7px; border-radius: 6px; font-size: .9em; }
+    footer { text-align: center; color: #8d93c7; font-size: .85rem; padding: 24px; }
+    .badge {
+      display: inline-block; background: rgba(255,255,255,.10);
+      border: 1px solid rgba(255,255,255,.22); padding: 6px 14px;
+      border-radius: 999px; font-size: .8rem; margin-bottom: 24px; color: #dfe3ff;
+    }
+    a { color: #9fb4ff; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="logo">
+      <img src="icon.png" alt="FamilyTube logo">
+      <h1>FamilyTube</h1>
+    </div>
+    <span class="badge">Private family app — not a public service</span>
+    <h2>What it is</h2>
+    <p>
+      FamilyTube is a small, self-hosted video player a single family runs for their
+      own children. It plays a parent-approved YouTube feed on household devices
+      (Apple TV, iPhone, iPad) and filters out unwanted channels.
+    </p>
+    <h2>What it is not</h2>
+    <p>
+      FamilyTube has <strong>no public registration</strong>, no public sign-up, no
+      user accounts for the general public, and no cloud offering. It operates from
+      the family's own home network and is not available for download by anyone outside
+      that household.
+    </p>
+    <h2>How private</h2>
+    <p>
+      The app talks only to the family's own server. It exists to limit what children
+      can watch, and no data is aggregated, sold, or shared with third parties beyond
+      what the Google account the family itself chooses to connect provides.
+    </p>
+    <p style="margin-top:12px">
+      This website exists solely to satisfy the identification and disclosure
+      requirements of app-marketplace vendors. The software is not for commerce.
+    </p>
+    <p style="margin-top:16px">
+      <a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Use</a>
+    </p>
+  </main>
+  <footer>&copy; 2026 FamilyTube. Operated privately by one family.</footer>
+</body>
+</html>
